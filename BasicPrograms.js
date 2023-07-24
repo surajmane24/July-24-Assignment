@@ -18,6 +18,7 @@ let primeNumbers = (number) => {
         }
     }
 }
+console.log(primeNumbers(5));
 
 //  sum of fibonaci series upto n
 function fibonaciSeries(number){
@@ -33,6 +34,7 @@ console.log(a+ ", \n" + b + ", \n");
 
     }
 }
+console.log(fibonaciSeries(7));
 
 //   count of even, odd and zero
 let countEvenOddZero = (value) => {
@@ -56,5 +58,5 @@ let countEvenOddZero = (value) => {
     console.log("Total Zero's = "+ zeroCount)
     console.log("Total Even's = "+ evenCount)
     console.log("Total Odd's = "+ oddCount)
-
 }
+console.log(countEvenOddZero(400777));
